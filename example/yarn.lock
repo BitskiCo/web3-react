@@ -1001,6 +1001,22 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@bitski/provider-engine@^0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@bitski/provider-engine/-/provider-engine-0.6.3.tgz#92f764ba11acf01243be518c65ba15d080d692bc"
+  integrity sha512-ARz2Dn/w0gA4XDL31GPzbPFn/SFhhCFpTQCjKW0IJvV/MyhmHtE2n+TJ9iWVEjtn2rkWsCJDMlbDwDsdXAgL7Q==
+  dependencies:
+    async "3.0.1"
+    bn.js "^4.11.8"
+    clone "^2.0.0"
+    cross-fetch "^2.1.0"
+    eth-block-tracker "^4.4.1"
+    ethjs-util "^0.1.6"
+    json-rpc-error "^2.0.0"
+    json-stable-stringify "^1.0.1"
+    promise-to-callback "^1.0.0"
+    xtend "^4.0.1"
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -1269,6 +1285,18 @@
   resolved "https://registry.yarnpkg.com/@ledgerhq/logs/-/logs-4.72.0.tgz#43df23af013ad1135407e5cf33ca6e4c4c7708d5"
   integrity sha512-o+TYF8vBcyySRsb2kqBDv/KMeme8a2nwWoG+lAWzbDmWfb2/MrVWYCVYDYvjXdSoI/Cujqy1i0gIDrkdxa9chA==
 
+"@openid/appauth@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@openid/appauth/-/appauth-1.2.6.tgz#54b256ecc14405d38f27bdaa5baa4e132dfa6c0c"
+  integrity sha512-DIK2QLmeCjj0psK82YcmjtDLIJFeBTSl4cVdfJaetXXhhmnKtWXDnlSKpJUwVRcdDE7LNDIv8TO0HbyemjVuaw==
+  dependencies:
+    "@types/base64-js" "^1.2.5"
+    "@types/jquery" "^3.3.31"
+    base64-js "^1.3.1"
+    follow-redirects "^1.8.1"
+    form-data "^2.5.1"
+    opener "^1.5.1"
+
 "@portis/eth-json-rpc-middleware@^4.1.2":
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/@portis/eth-json-rpc-middleware/-/eth-json-rpc-middleware-4.1.2.tgz#391e392da03dea348c8111a8111ce4550aa24a02"
@@ -1379,6 +1407,11 @@
     loglevel "^1.6.6"
     web3-utils "^1.2.5"
 
+"@types/base64-js@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@types/base64-js/-/base64-js-1.2.5.tgz#582b2476169a6cba460a214d476c744441d873d5"
+  integrity sha1-WCskdhaabLpGCiFNR2x0REHYc9U=
+
 "@types/bignumber.js@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@types/bignumber.js/-/bignumber.js-5.0.0.tgz#d9f1a378509f3010a3255e9cc822ad0eeb4ab969"
@@ -1412,6 +1445,13 @@
   dependencies:
     "@types/node" "*"
 
+"@types/jquery@^3.3.31":
+  version "3.3.32"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.32.tgz#93e27fdc45dd38ee07f2f0acf34b59c1ccee036f"
+  integrity sha512-UKoof2mnV/X1/Ix2g+V2Ny5sgHjV8nK/UJbiYxuo4zPwzGyFlZ/mp4KaePb2VqQrqJctmcDQNA57buU84/2uIw==
+  dependencies:
+    "@types/sizzle" "*"
+
 "@types/node@*":
   version "13.7.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.0.tgz#b417deda18cf8400f278733499ad5547ed1abec4"
@@ -1439,6 +1479,11 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
+
+"@types/sizzle@*":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
+  integrity sha512-7EJYyKTL7tFR8+gDbB6Wwz/arpGa0Mywk1TJbNzKzHtzbwVmY4HR9WqS5VV7dsBUKQmPNr192jHr/VpBluj/hg==
 
 "@types/web3-provider-engine@^14.0.0":
   version "14.0.0"
@@ -1525,6 +1570,13 @@
   dependencies:
     "@web3-react/types" "^6.0.2"
 
+"@web3-react/abstract-connector@^6.0.7":
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/@web3-react/abstract-connector/-/abstract-connector-6.0.7.tgz#401b3c045f1e0fab04256311be49d5144e9badc6"
+  integrity sha512-RhQasA4Ox8CxUC0OENc1AJJm8UTybu/oOCM61Zjg6y0iF7Z0sqv1Ai1VdhC33hrQpA8qSBgoXN9PaP8jKmtdqg==
+  dependencies:
+    "@web3-react/types" "^6.0.7"
+
 "@web3-react/authereum-connector@latest":
   version "6.0.6"
   resolved "https://registry.yarnpkg.com/@web3-react/authereum-connector/-/authereum-connector-6.0.6.tgz#1d4f116a9de93e781f505b0fc06467535cb94532"
@@ -1533,6 +1585,13 @@
     "@web3-react/abstract-connector" "^6.0.2"
     "@web3-react/types" "^6.0.2"
     authereum "^0.0.4-beta.83"
+
+"@web3-react/bitski-connector@../packages/bitski-connector":
+  version "6.0.7"
+  dependencies:
+    "@web3-react/abstract-connector" "^6.0.7"
+    "@web3-react/types" "^6.0.7"
+    bitski "^0.10.7"
 
 "@web3-react/core@latest":
   version "6.0.6"
@@ -1635,6 +1694,11 @@
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/@web3-react/types/-/types-6.0.2.tgz#fe451383cc6fd88128c7608e3cdfe3b0c42caff3"
   integrity sha512-zDPcjWdYONgpL6o3SQPMQE+pIDBcIsWMP/FqFRIFmPjB9h+ONHXNID74pf3h++gZGfIkl9cDtTvF8kQudn5Lew==
+
+"@web3-react/types@^6.0.7":
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/@web3-react/types/-/types-6.0.7.tgz#34a6204224467eedc6123abaf55fbb6baeb2809f"
+  integrity sha512-ofGmfDhxmNT1/P/MgVa8IKSkCStFiyvXe+U5tyZurKdrtTDFU+wJ/LxClPDtFerWpczNFPUSrKcuhfPX1sI6+A==
 
 "@web3-react/walletconnect-connector@latest":
   version "6.0.2"
@@ -2224,6 +2288,11 @@ async@2.6.2:
   integrity sha512-H1qVYh1MYhEEFLsP97cVKqCGo7KfCyTt6uEWqsTBr9SO84oK9Uwbyd/yCW+6rKJLHksBNUVWZDAjfS+Ccx0Bbg==
   dependencies:
     lodash "^4.17.11"
+
+async@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.0.1.tgz#dfeb34657d1e63c94c0eee424297bf8a2c9a8182"
+  integrity sha512-ZswD8vwPtmBZzbn9xyi8XBQWXH3AvOQ43Za1KWYq7JeycrZuUYzx01KvHcVbXltjqH4y0MWrQ33008uLTqXuDw==
 
 async@^1.4.2:
   version "1.5.2"
@@ -2916,7 +2985,7 @@ base-x@^3.0.2:
   dependencies:
     safe-buffer "^5.0.1"
 
-base64-js@^1.0.2:
+base64-js@^1.0.2, base64-js@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
   integrity sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==
@@ -3015,6 +3084,26 @@ bip66@^1.1.5:
   integrity sha1-AfqHSHhcpwlV1QESF9GzE5lpyiI=
   dependencies:
     safe-buffer "^5.0.1"
+
+bitski-provider@^0.10.6:
+  version "0.10.6"
+  resolved "https://registry.yarnpkg.com/bitski-provider/-/bitski-provider-0.10.6.tgz#4bdf96ad4f60dbaffa07dbae142431a21a8b5f61"
+  integrity sha512-Oz7pqvivZbRhAeNYnOBtuB0lESVnmnsbL43okJnHSoBxnckbifpyENcvHdiCl98kWjLdR/EIYl9ZEHY7R3NMWQ==
+  dependencies:
+    "@bitski/provider-engine" "^0.6.3"
+    async "3.0.1"
+    bn.js "^4.11.8"
+    json-rpc-error "^2.0.0"
+
+bitski@^0.10.7:
+  version "0.10.7"
+  resolved "https://registry.yarnpkg.com/bitski/-/bitski-0.10.7.tgz#eacb06ff58158d9a765ff5192a711eded9e4ae5a"
+  integrity sha512-OhNxqBxGAOJGs81Vk3mXOG+iNEUJ2fbURtq2KmBy21rK0I8i+mZhoO7s9imSbCE1hz0A4RKmPGzZ7gKe4Mh3gQ==
+  dependencies:
+    "@bitski/provider-engine" "^0.6.3"
+    "@openid/appauth" "^1.2.6"
+    bitski-provider "^0.10.6"
+    uuid "^3.3.3"
 
 bl@^1.0.0:
   version "1.2.2"
@@ -4079,7 +4168,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@3.2.6:
+debug@3.2.6, debug@^3.0.0:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
@@ -5206,7 +5295,7 @@ ethjs-unit@0.1.6:
     bn.js "4.11.6"
     number-to-bn "1.7.0"
 
-ethjs-util@0.1.6, ethjs-util@^0.1.3:
+ethjs-util@0.1.6, ethjs-util@^0.1.3, ethjs-util@^0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/ethjs-util/-/ethjs-util-0.1.6.tgz#f308b62f185f9fe6237132fb2a9818866a5cd536"
   integrity sha512-CUnVOQq7gSpDHZVVrQW8ExxUETWrnrvXYvYz55wOU8Uj4VCgw56XC2B/fVqQN+f7gmrnRHSLVnFAwsCuNwji8w==
@@ -5583,6 +5672,13 @@ follow-redirects@1.5.10:
   dependencies:
     debug "=3.1.0"
 
+follow-redirects@^1.8.1:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.10.0.tgz#01f5263aee921c6a54fb91667f08f4155ce169eb"
+  integrity sha512-4eyLK6s6lH32nOvLLwlIOnr9zrL8Sm+OvW4pVTJNoXeGzYIkHVf+pADQi+OJ0E67hiuSLezPVPyBcIZO50TmmQ==
+  dependencies:
+    debug "^3.0.0"
+
 for-each@~0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/for-each/-/for-each-0.3.3.tgz#69b447e88a0a5d32c3e7084f3f1710034b21376e"
@@ -5620,6 +5716,15 @@ fork-ts-checker-webpack-plugin@3.1.1:
     semver "^5.6.0"
     tapable "^1.0.0"
     worker-rpc "^0.1.0"
+
+form-data@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.5.1.tgz#f2cbec57b5e59e23716e128fe44d4e5dd23895f4"
+  integrity sha512-m21N3WOmEEURgk6B9GLOE4RuWOFf28Lhh9qGYeNlGq4VDXUlJy2th2slBNU8Gp8EzloYZOibZJ7t5ecIrFSjVA==
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.6"
+    mime-types "^2.1.12"
 
 form-data@~2.3.2:
   version "2.3.3"
@@ -8234,6 +8339,11 @@ onetime@^2.0.0:
   integrity sha1-BnQoIw/WdEOyeUsiu6UotoZ5YtQ=
   dependencies:
     mimic-fn "^1.0.0"
+
+opener@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/opener/-/opener-1.5.1.tgz#6d2f0e77f1a0af0032aca716c2c1fbb8e7e8abed"
+  integrity sha512-goYSy5c2UXE4Ra1xixabeVh1guIX/ZV/YokJksb6q2lubWu6UbvPQ20p542/sFIll1nl8JnCyK9oBaOcCWXwvA==
 
 ora@3.4.0:
   version "3.4.0"

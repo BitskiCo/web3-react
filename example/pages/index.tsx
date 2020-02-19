@@ -26,7 +26,8 @@ import {
   fortmatic,
   portis,
   squarelink,
-  torus
+  torus,
+  bitski
 } from '../connectors'
 import { Spinner } from '../components/Spinner'
 
@@ -42,7 +43,8 @@ const connectorsByName: { [name: string]: AbstractConnector } = {
   Fortmatic: fortmatic,
   Portis: portis,
   Squarelink: squarelink,
-  Torus: torus
+  Torus: torus,
+  Bitski: bitski
 }
 
 function getErrorMessage(error: Error) {

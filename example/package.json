@@ -10,6 +10,7 @@
     "@ethersproject/units": "^5.0.0-beta.132",
     "@web3-react/abstract-connector": "latest",
     "@web3-react/authereum-connector": "latest",
+    "@web3-react/bitski-connector": "latest",
     "@web3-react/core": "latest",
     "@web3-react/fortmatic-connector": "latest",
     "@web3-react/frame-connector": "latest",

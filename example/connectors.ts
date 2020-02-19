@@ -10,6 +10,7 @@ import { FortmaticConnector } from '@web3-react/fortmatic-connector'
 import { PortisConnector } from '@web3-react/portis-connector'
 import { SquarelinkConnector } from '@web3-react/squarelink-connector'
 import { TorusConnector } from '@web3-react/torus-connector'
+import { BitskiConnector } from '@web3-react/bitski-connector'
 
 const POLLING_INTERVAL = 12000
 const RPC_URLS: { [chainId: number]: string } = {
@@ -61,3 +62,5 @@ export const squarelink = new SquarelinkConnector({
 })
 
 export const torus = new TorusConnector({ chainId: 1 })
+
+export const bitski = new BitskiConnector({apiKey: process.env.BITSKI_API_KEY as string, callbackUrl: 'http://localhost:1234/bitsk-callback.html'})
